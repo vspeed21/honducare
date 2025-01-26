@@ -51,9 +51,9 @@ import eliminarHabitos from './routes/Mantenimiento/HabitosToxicos/eliminarHabit
 import obtenerHabitos from './routes/Mantenimiento/HabitosToxicos/obtenerHabitos.js';
 
 import crearSexo from './routes/Mantenimiento/Sexo/crearSexo.js';
-import actualizarSexo from './routes/Mantenimiento/Sexo/actualizarSexo.js';
-import eliminarSexo from './routes/Mantenimiento/Sexo/eliminarSexo.js';
-import obtenerSexo from './routes/Mantenimiento/Sexo/obtenerSexo.js';
+import actualizarSexo from './routes/Mantenimiento/Sexo/ActualizarSexo.js';
+import eliminarSexo from './routes/Mantenimiento/Sexo/EliminarSexo.js';
+import obtenerSexo from './routes/Mantenimiento/Sexo/ObtenerSexo.js';
 
 import crearGineco from './routes/Mantenimiento/HistoriaGineco/crearGineco.js';
 import actualizarGineco from './routes/Mantenimiento/HistoriaGineco/ActualizarGineco.js';
