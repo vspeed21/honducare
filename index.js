@@ -4,7 +4,7 @@ import cors from 'cors';
 import { syncDatabase } from './config/sequelize.config.js';
 
 // Importar las rutas
-import crearExpediente from './routes/crearExpediente.js';
+// import crearExpediente from './routes/crearExpediente.js';
 import obtenerExpediente from './Routes/obtenerExpediente.js';
 import eliminarExpediente from './Routes/eliminarExpediente.js';
 import actualizarExpediente from './Routes/actualizarExpediente.js';
@@ -119,7 +119,7 @@ startServer();
 app.use('/diagnosticos', diagnosticoRoutes);
 
 // Expedientes
-app.use('/crear', crearExpediente);
+//app.use('/crear', crearExpediente);
 app.use('/obtener/expediente', obtenerExpediente);
 app.use('/eliminar/expediente', eliminarExpediente);
 app.use('/actualizar/expediente', actualizarExpediente);
