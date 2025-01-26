@@ -1,5 +1,5 @@
 import express from 'express';
-import { getItinerario } from '../../../controllers/Mantenimiento/Itinerario/Itinerariocontrollers.js';
+import { getItinerario } from '../../../controllers/Mantenimiento/Itinerario/ItinerarioControllers.js';
 
 const router = express.Router();
 
