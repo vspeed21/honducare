@@ -14,6 +14,7 @@ const sequelize = new Sequelize({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   define: { timestamps: false },
+  ssl: true,
 });
 
 // Función para autenticar y sincronizar la base de datos
