@@ -1,6 +1,6 @@
 // Importar las dependencias necesarias
 import express from 'express';
-import crearexpedienteController from '../Controllers/Expediente/crearExpedienteController.js'; // Cambiar a import
+import crearexpedienteController from '../controllers/Expediente/crearExpedienteController.js'; // Cambiar a import
 
 const router = express.Router();
 

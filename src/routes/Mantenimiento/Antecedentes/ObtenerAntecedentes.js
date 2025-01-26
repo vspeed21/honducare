@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import antecedentesController from '../../../Controllers/Mantenimiento/Antecedentes/ObtenerAntecedenteControlador.js';
+import antecedentesController from '../../../controllers/Mantenimiento/Antecedentes/ObtenerAntecedenteControlador.js';
 
 // Ruta para obtener todos los antecedentes
 router.get('/antecedente', antecedentesController.obtenerTodosLosAntecedentes);

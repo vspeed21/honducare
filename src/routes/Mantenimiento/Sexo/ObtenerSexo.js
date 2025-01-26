@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import sexoController from '../../../Controllers/Mantenimiento/Sexo/ObtenerSexoControlador.js';
+import sexoController from '../../../controllers/Mantenimiento/Sexo/ObtenerSexoControlador.js';
 
 // Ruta para obtener todos los sexos
 router.get('/sexos', sexoController.obtenerTodosLosSexos);

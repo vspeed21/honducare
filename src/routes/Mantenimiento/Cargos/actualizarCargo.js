@@ -1,5 +1,5 @@
 import express from 'express';
-import cargoController from '../../../Controllers/Mantenimiento/Cargo/actualizarCargoControlador.js';
+import cargoController from '../../../controllers/Mantenimiento/Cargo/actualizarCargoControlador.js';
 
 const router = express.Router();
 

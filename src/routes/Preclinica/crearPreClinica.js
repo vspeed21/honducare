@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import crearpccontrolador from '../../Controllers/PreClinica/crearPCControlador.js';
+import crearpccontrolador from '../../controllers/PreClinica/crearPCControlador.js';
 
 import checkAuth from '../../middleware/checkAuth.js'
 

@@ -1,5 +1,5 @@
 import express from 'express';
-import deleteCargo from '../../../Controllers/Mantenimiento/Cargo/eliminarCargoControlador.js';
+import deleteCargo from '../../../controllers/Mantenimiento/Cargo/eliminarCargoControlador.js';
 
 const router = express.Router();
 

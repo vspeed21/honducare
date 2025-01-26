@@ -1,6 +1,6 @@
 // obtenerExpediente.js
 import express from 'express';
-import obtenerExpedienteController from '../Controllers/Expediente/obtenerExpedienteController.js';
+import obtenerExpedienteController from '../controllers/Expediente/obtenerExpedienteController.js';
 
 const router = express.Router();
 // Ruta para obtener el expediente

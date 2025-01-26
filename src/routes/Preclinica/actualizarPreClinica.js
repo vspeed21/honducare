@@ -1,7 +1,7 @@
 // actualizarPreclinica.js
 import express from 'express';
 const router = express.Router();
-import actualizarPCControlador from '../../Controllers/PreClinica/actualizarPCControlador.js';
+import actualizarPCControlador from '../../controllers/PreClinica/actualizarPCControlador.js';
 
 import checkAuth from '../../middleware/checkAuth.js';
 

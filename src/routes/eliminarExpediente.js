@@ -1,7 +1,7 @@
 // eliminarExpediente.js
 import express from 'express';
 
-import eliminarExpedienteController from '../Controllers/Expediente/eliminarExpedienteController.js';
+import eliminarExpedienteController from '../controllers/Expediente/eliminarExpedienteController.js';
 
 const router = express.Router();
 

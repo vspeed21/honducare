@@ -1,7 +1,7 @@
 // Importar las dependencias necesarias
 import express from 'express';
 const router = express.Router();
-import crearcitacontrolador from '../../Controllers/Citas/crearCitaControlador.js';
+import crearcitacontrolador from '../../controllers/Citas/crearCitaControlador.js';
 
 import checkAuth from '../../middleware/checkAuth.js';
 

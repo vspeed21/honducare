@@ -1,5 +1,5 @@
 import express from 'express';
-import estadoController from '../../../Controllers/Mantenimiento/EstadoCita/obtenerEstadoCitaControlador.js';
+import estadoController from '../../../controllers/Mantenimiento/EstadoCita/obtenerEstadoCitaControlador.js';
 
 const router = express.Router();
 

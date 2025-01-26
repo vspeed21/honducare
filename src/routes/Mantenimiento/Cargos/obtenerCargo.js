@@ -1,5 +1,5 @@
 import express from 'express';
-import { getAllCargos, getCargoById } from '../../../Controllers/Mantenimiento/Cargo/obtenerCargo.js';
+import { getAllCargos, getCargoById } from '../../../controllers/Mantenimiento/Cargo/obtenerCargo.js';
 
 const router = express.Router();
 

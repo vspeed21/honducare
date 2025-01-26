@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import usuarioController from '../../Controllers/Usuarios/obtenerUsuarioControlador.js';
+import usuarioController from '../../controllers/Usuarios/obtenerUsuarioControlador.js';
 
 // Ruta para obtener todos los antecedentes
 router.get('/usuario', usuarioController.obtenerTodosLosUsuarios);

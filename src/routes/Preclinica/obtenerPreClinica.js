@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import obtenerPreclinicaControlador from '../../Controllers/PreClinica/obtenerPCControlador.js';
+import obtenerPreclinicaControlador from '../../controllers/PreClinica/obtenerPCControlador.js';
 
 router.get('/', obtenerPreclinicaControlador.obtenerPreclinica);
 

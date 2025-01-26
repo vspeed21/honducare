@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {tipoDocumentoController} = require('../../../Controllers/Mantenimiento/TipoDocumento/obtenerTipoDocuControlador');
+const { tipoDocumentoController } = require('../../../controllers/Mantenimiento/TipoDocumento/obtenerTipoDocuControlador');
 
 // Ruta para obtener todos los tipos de documento
 router.get('/tiposDocumentos', tipoDocumentoController.obtenerTodosLosTiposDocumento);

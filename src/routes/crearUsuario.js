@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-const crearUsuarioControlador = import('../../Controllers/Usuarios/crearUsuarioControlador');
+const crearUsuarioControlador = import('../../controllers/Usuarios/crearUsuarioControlador');
 
 // Ruta POST para crear un nuevo usuario
 router.post('', crearUsuarioControlador.crearUsuario);

@@ -1,7 +1,7 @@
 // Importar las dependencias necesarias
 import express from 'express';
 
-import actualizarcitaControlador from '../../Controllers/Citas/actualizarCitaControlador.js';
+import actualizarcitaControlador from '../../controllers/Citas/actualizarCitaControlador.js';
 
 const router = express.Router();
 // Ruta para actualizar una cita

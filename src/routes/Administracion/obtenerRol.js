@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-const rolesController = import('../../Controllers/Roles/obtenerRolControlador.js');
+const rolesController = import('../../controllers/Roles/obtenerRolControlador.js');
 
 // Ruta para obtener todos los antecedentes
 router.get('/rol', rolesController.obtenerTodosLosRoles);

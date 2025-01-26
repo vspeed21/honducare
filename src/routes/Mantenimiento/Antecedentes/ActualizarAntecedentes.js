@@ -1,5 +1,5 @@
 import express from 'express';
-import  antecedentesController  from '../../../Controllers/Mantenimiento/Antecedentes/ActualAntecedenteControlador.js';
+import antecedentesController from '../../../controllers/Mantenimiento/Antecedentes/ActualAntecedenteControlador.js';
 
 const router = express.Router();
 

@@ -1,5 +1,5 @@
 import express from 'express';
-import { getEstadisticas, getPacientesGeneroYear } from '../../../controllers/Mantenimiento/Estadisticas/estadisticasControllers.js';
+import { getEstadisticas, getPacientesGeneroYear } from '../../../controllers/Mantenimiento/Estadisticas/estadisticascontrollers.js';
 
 const router = express.Router();
 

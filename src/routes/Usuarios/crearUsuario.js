@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import crearUsuario from '../../Controllers/Usuarios/crearUsuarioControlador.js';
+import crearUsuario from '../../controllers/Usuarios/crearUsuarioControlador.js';
 
 import checkAuth from '../../middleware/checkAuth.js';
 
