@@ -5,7 +5,7 @@ import { syncDatabase } from './config/sequelize.config.js';
 
 // Importar las rutas
 // import crearExpediente from './routes/crearExpediente.js';
-import obtenerExpediente from './Routes/obtenerExpediente.js';
+import obtenerExpediente from './routes/obtenerExpediente.js';
 import eliminarExpediente from './Routes/eliminarExpediente.js';
 import actualizarExpediente from './Routes/actualizarExpediente.js';
 
