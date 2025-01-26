@@ -6,69 +6,69 @@ import { syncDatabase } from './config/sequelize.config.js';
 // Importar las rutas
 // import crearExpediente from './routes/crearExpediente.js';
 import obtenerExpediente from './routes/obtenerExpediente.js';
-import eliminarExpediente from './Routes/eliminarExpediente.js';
-import actualizarExpediente from './Routes/actualizarExpediente.js';
+import eliminarExpediente from './routes/eliminarExpediente.js';
+import actualizarExpediente from './routes/actualizarExpediente.js';
 
-import crearCitas from './Routes/Citas/crearCitas.js';
-import obtenerCita from './Routes/Citas/obtenerCita.js';
-import actualizarCita from './Routes/Citas/actualizarCita.js';
-import eliminarCita from './Routes/Citas/EliminarCita.js';
-import historialCitas from './Routes/Citas/historialCitas.js';
-import obtenerCitasdelDia from './Routes/Citas/obtenerCitasdelDia.js';
-import cambiarEstado from './Routes/Citas/cambiarEstado.js';
+import crearCitas from './routes/Citas/crearCitas.js';
+import obtenerCita from './routes/Citas/obtenerCita.js';
+import actualizarCita from './routes/Citas/actualizarCita.js';
+import eliminarCita from './routes/Citas/EliminarCita.js';
+import historialCitas from './routes/Citas/historialCitas.js';
+import obtenerCitasdelDia from './routes/Citas/obtenerCitasdelDia.js';
+import cambiarEstado from './routes/Citas/cambiarEstado.js';
 
-import verificarUsuario from './Routes/Usuarios/verificarUsuario.js';
-import crearUsuario from './Routes/Usuarios/crearUsuario.js';
+import verificarUsuario from './routes/Usuarios/verificarUsuario.js';
+import crearUsuario from './routes/Usuarios/crearUsuario.js';
 
 // Mantenimiento
-import crearAntecedente from './Routes/Mantenimiento/Antecedentes/antecedentes.js';
-import actualizarAntecedentes from './Routes/Mantenimiento/Antecedentes/ActualizarAntecedentes.js';
-import eliminarAntecedentes from './Routes/Mantenimiento/Antecedentes/eliminarAntecedentes.js';
-import obtenerAntecedentes from './Routes/Mantenimiento/Antecedentes/obtenerAntecedentes.js';
-import EspecialidadesRoutes from './Routes/Mantenimiento/especialidades/especialidadesRoutes.js';
-import ItinerarioRoutes from './Routes/Mantenimiento/Itinerario/ItinerarioRoutes.js';
-import EstadisticasRoutes from './Routes/Mantenimiento/Estadisticas/estadisticasRoutes.js';
+import crearAntecedente from './routes/Mantenimiento/Antecedentes/antecedentes.js';
+import actualizarAntecedentes from './routes/Mantenimiento/Antecedentes/ActualizarAntecedentes.js';
+import eliminarAntecedentes from './routes/Mantenimiento/Antecedentes/eliminarAntecedentes.js';
+import obtenerAntecedentes from './routes/Mantenimiento/Antecedentes/obtenerAntecedentes.js';
+import EspecialidadesRoutes from './routes/Mantenimiento/especialidades/especialidadesRoutes.js';
+import ItinerarioRoutes from './routes/Mantenimiento/Itinerario/ItinerarioRoutes.js';
+import EstadisticasRoutes from './routes/Mantenimiento/Estadisticas/estadisticasRoutes.js';
 
-import crearCargo from './Routes/Mantenimiento/Cargos/crearCargo.js';
-import actualizarCargo from './Routes/Mantenimiento/Cargos/actualizarCargo.js';
-import eliminarCargo from './Routes/Mantenimiento/Cargos/eliminarCargo.js';
-import obtenerCargo from './Routes/Mantenimiento/Cargos/obtenerCargo.js';
+import crearCargo from './routes/Mantenimiento/Cargos/crearCargo.js';
+import actualizarCargo from './routes/Mantenimiento/Cargos/actualizarCargo.js';
+import eliminarCargo from './routes/Mantenimiento/Cargos/eliminarCargo.js';
+import obtenerCargo from './routes/Mantenimiento/Cargos/obtenerCargo.js';
 
 // Otras rutas de mantenimiento
-import crearEstadoCivil from './Routes/Mantenimiento/EstadoCivil/crearEstadoCivil.js';
-import actualizarEstadoCivil from './Routes/Mantenimiento/EstadoCivil/actualizarEstadoCivil.js';
-import eliminarEstadoCivil from './Routes/Mantenimiento/EstadoCivil/eliminarEstadoCivil.js';
-import obtenerEstadoCivil from './Routes/Mantenimiento/EstadoCivil/obtenerEstadoCivil.js';
+import crearEstadoCivil from './routes/Mantenimiento/EstadoCivil/crearEstadoCivil.js';
+import actualizarEstadoCivil from './routes/Mantenimiento/EstadoCivil/actualizarEstadoCivil.js';
+import eliminarEstadoCivil from './routes/Mantenimiento/EstadoCivil/eliminarEstadoCivil.js';
+import obtenerEstadoCivil from './routes/Mantenimiento/EstadoCivil/obtenerEstadoCivil.js';
 
-import crearEstadoCita from './Routes/Mantenimiento/EstadoCita/crearEstadoCita.js';
-import actualizarEstadoCita from './Routes/Mantenimiento/EstadoCita/actualizarEstadoCita.js';
-import eliminarEstadoCita from './Routes/Mantenimiento/EstadoCita/eliminarEstadoCita.js';
-import obtenerEstadoCita from './Routes/Mantenimiento/EstadoCita/obtenerEstadoCita.js';
+import crearEstadoCita from './routes/Mantenimiento/EstadoCita/crearEstadoCita.js';
+import actualizarEstadoCita from './routes/Mantenimiento/EstadoCita/actualizarEstadoCita.js';
+import eliminarEstadoCita from './routes/Mantenimiento/EstadoCita/eliminarEstadoCita.js';
+import obtenerEstadoCita from './routes/Mantenimiento/EstadoCita/obtenerEstadoCita.js';
 
-import crearHabitos from './Routes/Mantenimiento/HabitosToxicos/crearHabitos.js';
-import actualizarHabitos from './Routes/Mantenimiento/HabitosToxicos/actualizarHabitos.js';
-import eliminarHabitos from './Routes/Mantenimiento/HabitosToxicos/eliminarHabitos.js';
-import obtenerHabitos from './Routes/Mantenimiento/HabitosToxicos/obtenerHabitos.js';
+import crearHabitos from './routes/Mantenimiento/HabitosToxicos/crearHabitos.js';
+import actualizarHabitos from './routes/Mantenimiento/HabitosToxicos/actualizarHabitos.js';
+import eliminarHabitos from './routes/Mantenimiento/HabitosToxicos/eliminarHabitos.js';
+import obtenerHabitos from './routes/Mantenimiento/HabitosToxicos/obtenerHabitos.js';
 
-import crearSexo from './Routes/Mantenimiento/Sexo/crearSexo.js';
-import actualizarSexo from './Routes/Mantenimiento/Sexo/actualizarSexo.js';
-import eliminarSexo from './Routes/Mantenimiento/Sexo/eliminarSexo.js';
-import obtenerSexo from './Routes/Mantenimiento/Sexo/obtenerSexo.js';
+import crearSexo from './routes/Mantenimiento/Sexo/crearSexo.js';
+import actualizarSexo from './routes/Mantenimiento/Sexo/actualizarSexo.js';
+import eliminarSexo from './routes/Mantenimiento/Sexo/eliminarSexo.js';
+import obtenerSexo from './routes/Mantenimiento/Sexo/obtenerSexo.js';
 
-import crearGineco from './Routes/Mantenimiento/HistoriaGineco/crearGineco.js';
-import actualizarGineco from './Routes/Mantenimiento/HistoriaGineco/ActualizarGineco.js';
-import eliminarGineco from './Routes/Mantenimiento/HistoriaGineco/EliminarGineco.js';
-import obtenerGineco from './Routes/Mantenimiento/HistoriaGineco/obtenerGineco.js';
+import crearGineco from './routes/Mantenimiento/HistoriaGineco/crearGineco.js';
+import actualizarGineco from './routes/Mantenimiento/HistoriaGineco/ActualizarGineco.js';
+import eliminarGineco from './routes/Mantenimiento/HistoriaGineco/EliminarGineco.js';
+import obtenerGineco from './routes/Mantenimiento/HistoriaGineco/obtenerGineco.js';
 
-import crearOcupacion from './Routes/Mantenimiento/Ocupaciones/crearOcupacion.js'
-import actualizarOcupacion from './Routes/Mantenimiento/Ocupaciones/ActualizarOcupacion.js'
-import eliminarOcupacion from './Routes/Mantenimiento/Ocupaciones/EliminarOcupacion.js'
-import obtenerOcupacion from './Routes/Mantenimiento/Ocupaciones/obtenerOcupacion.js'
+import crearOcupacion from './routes/Mantenimiento/Ocupaciones/crearOcupacion.js'
+import actualizarOcupacion from './routes/Mantenimiento/Ocupaciones/ActualizarOcupacion.js'
+import eliminarOcupacion from './routes/Mantenimiento/Ocupaciones/EliminarOcupacion.js'
+import obtenerOcupacion from './routes/Mantenimiento/Ocupaciones/obtenerOcupacion.js'
 
-import crearPatologia from './Routes/Mantenimiento/Patologias/crearPatologia.js';
-import actualizarPatologia from './Routes/Mantenimiento/Patologias/actualizarPatologia.js';
-import eliminarPatologia from './Routes/Mantenimiento/Patologias/eliminarPatologia.js';
-import obtenerPatologia from './Routes/Mantenimiento/Patologias/obtenerPatologia.js';
+import crearPatologia from './routes/Mantenimiento/Patologias/crearPatologia.js';
+import actualizarPatologia from './routes/Mantenimiento/Patologias/actualizarPatologia.js';
+import eliminarPatologia from './routes/Mantenimiento/Patologias/eliminarPatologia.js';
+import obtenerPatologia from './routes/Mantenimiento/Patologias/obtenerPatologia.js';
 
 import crearPreClinica from './routes/Preclinica/crearPreClinica.js';
 import actualizarPreClinica from './routes/Preclinica/actualizarPreClinica.js';
