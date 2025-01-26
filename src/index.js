@@ -23,8 +23,8 @@ import crearUsuario from './routes/Usuarios/crearUsuario.js';
 // Mantenimiento
 import crearAntecedente from './routes/Mantenimiento/Antecedentes/antecedentes.js';
 import actualizarAntecedentes from './routes/Mantenimiento/Antecedentes/ActualizarAntecedentes.js';
-import eliminarAntecedentes from './routes/Mantenimiento/Antecedentes/eliminarAntecedentes.js';
-import obtenerAntecedentes from './routes/Mantenimiento/Antecedentes/obtenerAntecedentes.js';
+import eliminarAntecedentes from './routes/Mantenimiento/Antecedentes/EliminarAntecedentes.js';
+import obtenerAntecedentes from './routes/Mantenimiento/Antecedentes/ObtenerAntecedentes.js';
 import EspecialidadesRoutes from './routes/Mantenimiento/especialidades/especialidadesRoutes.js';
 import ItinerarioRoutes from './routes/Mantenimiento/Itinerario/ItinerarioRoutes.js';
 import EstadisticasRoutes from './routes/Mantenimiento/Estadisticas/estadisticasRoutes.js';
