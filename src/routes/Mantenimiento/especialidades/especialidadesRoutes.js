@@ -1,5 +1,5 @@
 import express from 'express';
-import { createEspecialidad, getEspecialidadById, getEspecialidades, updateEspecialidad } from '../../../controllers/Mantenimiento/Especialidades/especialidadescontrollers.js';
+import { createEspecialidad, getEspecialidadById, getEspecialidades, updateEspecialidad } from '../../../controllers/Mantenimiento/Especialidades/especialidadesControllers.js';
 import checkAuth from '../../../middleware/checkAuth.js';
 
 const router = express.Router();
