@@ -1,5 +1,5 @@
 import express from 'express';
-import { getBitacora } from '../../../controllers/Mantenimiento/Bitacora/Bitacoracontrollers.js';
+import { getBitacora } from '../../../controllers/Mantenimiento/Bitacora/BitacoraControllers.js';
 
 const router = express.Router();
 
